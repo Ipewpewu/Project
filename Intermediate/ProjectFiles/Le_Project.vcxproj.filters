@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\Le_Project.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{63ED2D1C-7699-49AB-B89C-6C0A23A3FE8B}</UniqueIdentifier>
+			<UniqueIdentifier>{8D2BAA3F-1F52-4BF7-99FA-32E95954196C}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Le_Project.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{030C0C58-4855-4DC5-9FFB-3F7D9687343C}</UniqueIdentifier>
+			<UniqueIdentifier>{EB9B864B-567A-41CE-858B-00508AC99A62}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,8 +28,14 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\Le_Project">
-			<UniqueIdentifier>{F3CE4E16-11ED-47FC-A735-EDEFD6E9215A}</UniqueIdentifier>
+			<UniqueIdentifier>{DFC47F92-E736-4D50-89E3-311BB3E0B8DA}</UniqueIdentifier>
 		</Filter>
+		<ClCompile Include="..\..\Source\Le_Project\Item.cpp">
+			<Filter>Source\Le_Project</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Le_Project\Item.h">
+			<Filter>Source\Le_Project</Filter>
+		</ClInclude >
 		<None Include="..\..\Source\Le_Project\Le_Project.Build.cs">
 			<Filter>Source\Le_Project</Filter>
 		</None >
@@ -52,10 +58,10 @@
 			<Filter>Source\Le_Project</Filter>
 		</ClInclude >
 		<Filter Include="Source\Le_Project\Resources">
-			<UniqueIdentifier>{1E522D64-8DA0-426F-B9B0-B052463549AA}</UniqueIdentifier>
+			<UniqueIdentifier>{6E4DBB12-D1B0-46CB-8C82-09CD7914E41A}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Source\Le_Project\Resources\Windows">
-			<UniqueIdentifier>{2A34BF81-19E1-4468-B390-4E19DF8A3D46}</UniqueIdentifier>
+			<UniqueIdentifier>{244886BE-AA4A-4963-9EE2-1C0F33BAF6CF}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Le_Project\Resources\Windows\Le_Project.ico">
 			<Filter>Source\Le_Project\Resources\Windows</Filter>

@@ -51,6 +51,8 @@
 		<None Include="..\..\Config\DefaultEngine.ini" />
 		<None Include="..\..\Config\DefaultGame.ini" />
 		<None Include="..\..\Config\DefaultInput.ini" />
+		<ClCompile Include="..\..\Source\Le_Project\Item.cpp" />
+		<ClInclude Include="..\..\Source\Le_Project\Item.h" />
 		<None Include="..\..\Source\Le_Project\Le_Project.Build.cs" />
 		<ClCompile Include="..\..\Source\Le_Project\Le_Project.cpp" />
 		<ClInclude Include="..\..\Source\Le_Project\Le_Project.h" />
