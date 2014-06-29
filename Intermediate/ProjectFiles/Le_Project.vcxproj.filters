@@ -1,5 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
 		<None Include="..\..\Le_Project.uproject" />
@@ -8,28 +7,40 @@
 		</Filter>
 		<None Include="..\..\Source\Le_Project.Target.cs">
 			<Filter>Source</Filter>
-		</None >
+    </None>
 		<None Include="..\..\Source\Le_ProjectEditor.Target.cs">
 			<Filter>Source</Filter>
-		</None >
+    </None>
 		<Filter Include="Config">
 			<UniqueIdentifier>{EB9B864B-567A-41CE-858B-00508AC99A62}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
-		</None >
+    </None>
 		<None Include="..\..\Config\DefaultEngine.ini">
 			<Filter>Config</Filter>
-		</None >
+    </None>
 		<None Include="..\..\Config\DefaultGame.ini">
 			<Filter>Config</Filter>
-		</None >
+    </None>
 		<None Include="..\..\Config\DefaultInput.ini">
 			<Filter>Config</Filter>
-		</None >
+    </None>
 		<Filter Include="Source\Le_Project">
-			<UniqueIdentifier>{DFC47F92-E736-4D50-89E3-311BB3E0B8DA}</UniqueIdentifier>
+      <UniqueIdentifier>{AF5CE2D5-745E-48D4-BFB0-9268A7486620}</UniqueIdentifier>
 		</Filter>
+    <ClCompile Include="..\..\Source\Le_Project\HumanPlayerController.cpp">
+      <Filter>Source\Le_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Le_Project\HumanPlayerController.h">
+      <Filter>Source\Le_Project</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Le_Project\IngameHUD.cpp">
+      <Filter>Source\Le_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Le_Project\IngameHUD.h">
+      <Filter>Source\Le_Project</Filter>
+    </ClInclude>
 		<ClCompile Include="..\..\Source\Le_Project\Item.cpp">
 			<Filter>Source\Le_Project</Filter>
 		</ClCompile >
@@ -38,25 +49,25 @@
 		</ClInclude >
 		<None Include="..\..\Source\Le_Project\Le_Project.Build.cs">
 			<Filter>Source\Le_Project</Filter>
-		</None >
+    </None>
 		<ClCompile Include="..\..\Source\Le_Project\Le_Project.cpp">
 			<Filter>Source\Le_Project</Filter>
-		</ClCompile >
+    </ClCompile>
 		<ClInclude Include="..\..\Source\Le_Project\Le_Project.h">
 			<Filter>Source\Le_Project</Filter>
-		</ClInclude >
+    </ClInclude>
 		<ClCompile Include="..\..\Source\Le_Project\Le_ProjectCharacter.cpp">
 			<Filter>Source\Le_Project</Filter>
-		</ClCompile >
+    </ClCompile>
 		<ClInclude Include="..\..\Source\Le_Project\Le_ProjectCharacter.h">
 			<Filter>Source\Le_Project</Filter>
-		</ClInclude >
+    </ClInclude>
 		<ClCompile Include="..\..\Source\Le_Project\Le_ProjectGameMode.cpp">
 			<Filter>Source\Le_Project</Filter>
-		</ClCompile >
+    </ClCompile>
 		<ClInclude Include="..\..\Source\Le_Project\Le_ProjectGameMode.h">
 			<Filter>Source\Le_Project</Filter>
-		</ClInclude >
+    </ClInclude>
 		<Filter Include="Source\Le_Project\Resources">
 			<UniqueIdentifier>{6E4DBB12-D1B0-46CB-8C82-09CD7914E41A}</UniqueIdentifier>
 		</Filter>
@@ -65,9 +76,25 @@
 		</Filter>
 		<None Include="..\..\Source\Le_Project\Resources\Windows\Le_Project.ico">
 			<Filter>Source\Le_Project\Resources\Windows</Filter>
-		</None >
+    </None>
 		<ResourceCompile Include="..\..\Source\Le_Project\Resources\Windows\Le_Project.rc">
 			<Filter>Source\Le_Project\Resources\Windows</Filter>
-		</ResourceCompile >
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Le_Project\IngameMenu.h">
+      <Filter>Source\Le_Project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Le_Project\SkillMenuUIWidget.h">
+      <Filter>Source\Le_Project</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Le_Project\IngameMenu.cpp">
+      <Filter>Source\Le_Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Le_Project\SkillMenuUIWidget.cpp">
+      <Filter>Source\Le_Project</Filter>
+    </ClCompile>
 	</ItemGroup>
 </Project>
