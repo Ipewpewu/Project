@@ -6,6 +6,7 @@ public class Le_Project : ModuleRules
 {
 	public Le_Project(TargetInfo Target)
 	{
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
+        PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
+        PrivateDependencyModuleNames.Add("Slate");
 	}
 }
