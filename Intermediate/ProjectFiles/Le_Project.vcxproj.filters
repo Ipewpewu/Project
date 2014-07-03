@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\Le_Project.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{7CDEE450-0F60-4DBD-AC84-47C0A7D63101}</UniqueIdentifier>
+			<UniqueIdentifier>{E316F94A-FA18-4117-BA75-B32C04875D59}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Le_Project.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{1C0DEB59-8B9D-40A2-9E5B-407FEA7B3AF5}</UniqueIdentifier>
+			<UniqueIdentifier>{774C28BD-D1EB-414D-84D2-73FD58B0E6F4}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,7 +28,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\Le_Project">
-			<UniqueIdentifier>{6D6686F5-D504-41FC-83B7-5D0F5D08A029}</UniqueIdentifier>
+			<UniqueIdentifier>{622D3196-6DAE-4ACF-9A5F-E17130CE0664}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\Le_Project\AiCharacter.cpp">
 			<Filter>Source\Le_Project</Filter>
@@ -94,10 +94,10 @@
 			<Filter>Source\Le_Project</Filter>
 		</ClInclude >
 		<Filter Include="Source\Le_Project\Resources">
-			<UniqueIdentifier>{06784602-69E6-4CAC-B867-A769D54CB141}</UniqueIdentifier>
+			<UniqueIdentifier>{AC61E94C-76C3-4265-AC77-17E97F2447E9}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Source\Le_Project\Resources\Windows">
-			<UniqueIdentifier>{A780C6D9-DE38-4C52-87DB-52ABD86DA55A}</UniqueIdentifier>
+			<UniqueIdentifier>{B022DFD7-1A3F-452C-96F3-1FF82D3252CC}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Le_Project\Resources\Windows\Le_Project.ico">
 			<Filter>Source\Le_Project\Resources\Windows</Filter>

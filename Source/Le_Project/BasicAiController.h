@@ -2,14 +2,14 @@
 
 #pragma once
 
-#include "GameFramework/PlayerController.h"
+#include "GameFramework/AIController.h"
 #include "BasicAiController.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class ABasicAiController : public APlayerController
+class ABasicAiController : public AAIController
 {
 	GENERATED_UCLASS_BODY()
 

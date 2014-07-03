@@ -7,7 +7,6 @@
 AAiCharacter::AAiCharacter(const class FPostConstructInitializeProperties& PCIP)
 	: Super(PCIP)
 {
-
 }
 
 
