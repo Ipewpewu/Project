@@ -22,6 +22,9 @@ class AItem : public AActor
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Particle)
 		TSubobjectPtr<UParticleSystemComponent> Particle;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = IsStackable)
+		bool IsStackable;
+
 	UFUNCTION()
 		void OnTouch(AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 };

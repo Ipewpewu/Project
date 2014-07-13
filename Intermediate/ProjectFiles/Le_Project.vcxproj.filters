@@ -1,109 +1,118 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\Le_Project.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{E316F94A-FA18-4117-BA75-B32C04875D59}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\Le_Project.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\Le_ProjectEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{774C28BD-D1EB-414D-84D2-73FD58B0E6F4}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultInput.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\Le_Project">
-			<UniqueIdentifier>{622D3196-6DAE-4ACF-9A5F-E17130CE0664}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\Le_Project\AiCharacter.cpp">
-			<Filter>Source\Le_Project</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Le_Project\AiCharacter.h">
-			<Filter>Source\Le_Project</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Le_Project\BasicAiController.cpp">
-			<Filter>Source\Le_Project</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Le_Project\BasicAiController.h">
-			<Filter>Source\Le_Project</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Le_Project\HumanPlayerController.cpp">
-			<Filter>Source\Le_Project</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Le_Project\HumanPlayerController.h">
-			<Filter>Source\Le_Project</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Le_Project\IngameHUD.cpp">
-			<Filter>Source\Le_Project</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Le_Project\IngameHUD.h">
-			<Filter>Source\Le_Project</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Le_Project\IngameMenu.cpp">
-			<Filter>Source\Le_Project</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Le_Project\IngameMenu.h">
-			<Filter>Source\Le_Project</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Le_Project\Item.cpp">
-			<Filter>Source\Le_Project</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Le_Project\Item.h">
-			<Filter>Source\Le_Project</Filter>
-		</ClInclude >
-		<None Include="..\..\Source\Le_Project\Le_Project.Build.cs">
-			<Filter>Source\Le_Project</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\Le_Project\Le_Project.cpp">
-			<Filter>Source\Le_Project</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Le_Project\Le_Project.h">
-			<Filter>Source\Le_Project</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Le_Project\Le_ProjectCharacter.cpp">
-			<Filter>Source\Le_Project</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Le_Project\Le_ProjectCharacter.h">
-			<Filter>Source\Le_Project</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Le_Project\Le_ProjectGameMode.cpp">
-			<Filter>Source\Le_Project</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Le_Project\Le_ProjectGameMode.h">
-			<Filter>Source\Le_Project</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Le_Project\SkillMenuUIWidget.cpp">
-			<Filter>Source\Le_Project</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Le_Project\SkillMenuUIWidget.h">
-			<Filter>Source\Le_Project</Filter>
-		</ClInclude >
-		<Filter Include="Source\Le_Project\Resources">
-			<UniqueIdentifier>{AC61E94C-76C3-4265-AC77-17E97F2447E9}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="Source\Le_Project\Resources\Windows">
-			<UniqueIdentifier>{B022DFD7-1A3F-452C-96F3-1FF82D3252CC}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\Le_Project\Resources\Windows\Le_Project.ico">
-			<Filter>Source\Le_Project\Resources\Windows</Filter>
-		</None >
-		<ResourceCompile Include="..\..\Source\Le_Project\Resources\Windows\Le_Project.rc">
-			<Filter>Source\Le_Project\Resources\Windows</Filter>
-		</ResourceCompile >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Le_Project.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{E316F94A-FA18-4117-BA75-B32C04875D59}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Le_Project.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Le_ProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{774C28BD-D1EB-414D-84D2-73FD58B0E6F4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Le_Project">
+      <UniqueIdentifier>{622D3196-6DAE-4ACF-9A5F-E17130CE0664}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Le_Project\AiCharacter.cpp">
+      <Filter>Source\Le_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Le_Project\AiCharacter.h">
+      <Filter>Source\Le_Project</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Le_Project\BasicAiController.cpp">
+      <Filter>Source\Le_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Le_Project\BasicAiController.h">
+      <Filter>Source\Le_Project</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Le_Project\HumanPlayerController.cpp">
+      <Filter>Source\Le_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Le_Project\HumanPlayerController.h">
+      <Filter>Source\Le_Project</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Le_Project\IngameHUD.cpp">
+      <Filter>Source\Le_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Le_Project\IngameHUD.h">
+      <Filter>Source\Le_Project</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Le_Project\IngameMenu.cpp">
+      <Filter>Source\Le_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Le_Project\IngameMenu.h">
+      <Filter>Source\Le_Project</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Le_Project\Item.cpp">
+      <Filter>Source\Le_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Le_Project\Item.h">
+      <Filter>Source\Le_Project</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Le_Project\Le_Project.Build.cs">
+      <Filter>Source\Le_Project</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Le_Project\Le_Project.cpp">
+      <Filter>Source\Le_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Le_Project\Le_Project.h">
+      <Filter>Source\Le_Project</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Le_Project\Le_ProjectCharacter.cpp">
+      <Filter>Source\Le_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Le_Project\Le_ProjectCharacter.h">
+      <Filter>Source\Le_Project</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Le_Project\Le_ProjectGameMode.cpp">
+      <Filter>Source\Le_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Le_Project\Le_ProjectGameMode.h">
+      <Filter>Source\Le_Project</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Le_Project\SkillMenuUIWidget.cpp">
+      <Filter>Source\Le_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Le_Project\SkillMenuUIWidget.h">
+      <Filter>Source\Le_Project</Filter>
+    </ClInclude>
+    <Filter Include="Source\Le_Project\Resources">
+      <UniqueIdentifier>{AC61E94C-76C3-4265-AC77-17E97F2447E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Le_Project\Resources\Windows">
+      <UniqueIdentifier>{B022DFD7-1A3F-452C-96F3-1FF82D3252CC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Le_Project\Resources\Windows\Le_Project.ico">
+      <Filter>Source\Le_Project\Resources\Windows</Filter>
+    </None>
+    <ResourceCompile Include="..\..\Source\Le_Project\Resources\Windows\Le_Project.rc">
+      <Filter>Source\Le_Project\Resources\Windows</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Le_Project\InventoryManager.h">
+      <Filter>Source\Le_Project</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Le_Project\InventoryManager.cpp">
+      <Filter>Source\Le_Project</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

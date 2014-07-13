@@ -3,6 +3,7 @@
 #include "Le_Project.h"
 #include "Item.h"
 #include "ParticleDefinitions.h"
+#include "Le_ProjectCharacter.h"
 
 AItem::AItem(const class FPostConstructInitializeProperties& PCIP)
 	: Super(PCIP)
@@ -18,7 +19,14 @@ AItem::AItem(const class FPostConstructInitializeProperties& PCIP)
 	Particle->AttachTo(RootComponent);
 }
 
-void AItem::OnTouch(AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
+void AItem::OnTouch(AActor* otherActor, UPrimitiveComponent* otherComp, int32 otherBodyIndex)
 {
+	if (otherActor->IsA(ALe_ProjectCharacter::StaticClass()))
+	{
+		ALe_ProjectCharacter* player = Cast<ALe_ProjectCharacter>(otherActor);
+		if (player)
+		{
 
+		}
+	}
 }
