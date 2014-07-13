@@ -2,6 +2,8 @@
 #pragma once
 
 #include "GameFramework/SpringArmComponent.h"
+#include "InventoryManager.h"
+
 #include "Le_ProjectCharacter.generated.h"
 
 UCLASS(config=Game)
@@ -24,6 +26,9 @@ class ALe_ProjectCharacter : public ACharacter
 	/** Base look up/down rate, in deg/sec. Other scaling may affect final rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
+
+public:
+	InventoryManager Inventory;
 
 protected:
 

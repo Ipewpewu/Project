@@ -26,7 +26,7 @@ void AItem::OnTouch(AActor* otherActor, UPrimitiveComponent* otherComp, int32 ot
 		ALe_ProjectCharacter* player = Cast<ALe_ProjectCharacter>(otherActor);
 		if (player)
 		{
-
+			player->Inventory.PickUpItem(this);
 		}
 	}
 }

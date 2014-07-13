@@ -1,5 +1,4 @@
 #include "Item.h"
-#include "Le_ProjectCharacter.h"
 #include "Array.h"
 
 USTRUCT()
@@ -14,15 +13,18 @@ struct ItemStruct
 	ItemStruct()
 	{
 		Item = NULL;
-		Count = 0;
+		Count = 1;
 	}
 };
 class InventoryManager
 {
-	private:
-		InventoryManager();
-		TArray<ItemStruct> Inventory;
+	private:		
+		TArray<ItemStruct*> Inventory;
 
 	public:
-
+		InventoryManager();
+		void PickUpItem(AItem* item);
+		void DropItem(AItem* item, FVector Location, FRotator rotation);
+		void DestroyItem(AItem* item);
+		void UseItem(AItem* item);		
 };
