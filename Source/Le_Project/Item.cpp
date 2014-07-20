@@ -17,6 +17,8 @@ AItem::AItem(const class FPostConstructInitializeProperties& PCIP)
 
 	Particle = PCIP.CreateDefaultSubobject<UParticleSystemComponent>(this, "Particle");
 	Particle->AttachTo(RootComponent);
+
+	CoolDown = 0.f;
 }
 
 void AItem::OnTouch(AActor* otherActor, UPrimitiveComponent* otherComp, int32 otherBodyIndex)

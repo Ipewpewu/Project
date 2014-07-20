@@ -8,7 +8,7 @@ struct ItemStruct
 	AItem* Item;
 	
 	UPROPERTY()
-	int Count;
+	uint8 Count;
 
 	ItemStruct()
 	{
@@ -18,11 +18,9 @@ struct ItemStruct
 };
 class InventoryManager
 {
-	private:		
-		TArray<ItemStruct*> Inventory;
-
 	public:
 		InventoryManager();
+		TArray<ItemStruct*> Inventory;
 		void PickUpItem(AItem* item);
 		void DropItem(AItem* item, FVector Location, FRotator rotation);
 		void DestroyItem(AItem* item);

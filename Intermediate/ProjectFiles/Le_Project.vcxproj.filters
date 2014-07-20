@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Le_Project.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{E316F94A-FA18-4117-BA75-B32C04875D59}</UniqueIdentifier>
+      <UniqueIdentifier>{4DD7022F-EDDA-459C-9556-1F0C9A584570}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Le_Project.Target.cs">
       <Filter>Source</Filter>
@@ -12,9 +12,12 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{774C28BD-D1EB-414D-84D2-73FD58B0E6F4}</UniqueIdentifier>
+      <UniqueIdentifier>{0F98A7ED-A7BA-4DFB-9162-9BF82E84D0C4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorUserSettings.ini">
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\Config\DefaultEngine.ini">
@@ -27,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Le_Project">
-      <UniqueIdentifier>{622D3196-6DAE-4ACF-9A5F-E17130CE0664}</UniqueIdentifier>
+      <UniqueIdentifier>{7B707ACC-8679-4881-8DEC-06AEA32086C2}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Le_Project\AiCharacter.cpp">
       <Filter>Source\Le_Project</Filter>
@@ -39,6 +42,12 @@
       <Filter>Source\Le_Project</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Le_Project\BasicAiController.h">
+      <Filter>Source\Le_Project</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Le_Project\Effect.cpp">
+      <Filter>Source\Le_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Le_Project\Effect.h">
       <Filter>Source\Le_Project</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Le_Project\HumanPlayerController.cpp">
@@ -57,6 +66,12 @@
       <Filter>Source\Le_Project</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Le_Project\IngameMenu.h">
+      <Filter>Source\Le_Project</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Le_Project\InventoryManager.cpp">
+      <Filter>Source\Le_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Le_Project\InventoryManager.h">
       <Filter>Source\Le_Project</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Le_Project\Item.cpp">
@@ -93,10 +108,10 @@
       <Filter>Source\Le_Project</Filter>
     </ClInclude>
     <Filter Include="Source\Le_Project\Resources">
-      <UniqueIdentifier>{AC61E94C-76C3-4265-AC77-17E97F2447E9}</UniqueIdentifier>
+      <UniqueIdentifier>{C23F9A66-4DDE-443C-AA83-9485EC695AFA}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\Le_Project\Resources\Windows">
-      <UniqueIdentifier>{B022DFD7-1A3F-452C-96F3-1FF82D3252CC}</UniqueIdentifier>
+      <UniqueIdentifier>{7A99E05E-4097-4FF5-AFFF-014F91DC794B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Le_Project\Resources\Windows\Le_Project.ico">
       <Filter>Source\Le_Project\Resources\Windows</Filter>
@@ -106,25 +121,13 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Source\Le_Project\InventoryManager.h">
+    <ClCompile Include="..\..\Source\Le_Project\EffectsManager.cpp">
       <Filter>Source\Le_Project</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Le_Project\Effect.h">
-      <Filter>Source</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Le_Project\ActiveEffectsManager.h">
-      <Filter>Source\Le_Project</Filter>
-    </ClInclude>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\Le_Project\InventoryManager.cpp">
+    <ClInclude Include="..\..\Source\Le_Project\EffectsManager.h">
       <Filter>Source\Le_Project</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Le_Project\Effect.cpp">
-      <Filter>Source\Le_Project</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Le_Project\ActiveEffectsManager.cpp">
-      <Filter>Source\Le_Project</Filter>
-    </ClCompile>
+    </ClInclude>
   </ItemGroup>
 </Project>
