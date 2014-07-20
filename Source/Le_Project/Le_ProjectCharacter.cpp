@@ -40,6 +40,27 @@ ALe_ProjectCharacter::ALe_ProjectCharacter(const class FPostConstructInitializeP
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
+
+	HitPoints = 200.f;
+	Stamina = 100.f;
+	Strength = 100.f;
+	Dexterity = 100.f;
+	Agility = 100.f;
+	Intelligence = 100.f;
+	Wisdom = 100.f;
+	Mana = 100.f;
+	Luck = 10.f;
+	Charisma = 100.f;
+	ArmorClass = 100.f;
+	ResistMagic = 100.f;
+	ResistHeat = 100.f;
+	ResistCold = 100.f;
+	ResistCorruption = 100.f;
+	ResistBleed = 100.f;
+	ResistPoison = 100.f;
+	RegenHealth = 1.f;
+	RegenMana = 1.f;
+	MovementSpeed = 100.f;
 }
 
 //////////////////////////////////////////////////////////////////////////

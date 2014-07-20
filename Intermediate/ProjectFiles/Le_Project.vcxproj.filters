@@ -109,9 +109,21 @@
     <ClInclude Include="..\..\Source\Le_Project\InventoryManager.h">
       <Filter>Source\Le_Project</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\Le_Project\Effect.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Le_Project\ActiveEffectsManager.h">
+      <Filter>Source\Le_Project</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\Le_Project\InventoryManager.cpp">
+      <Filter>Source\Le_Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Le_Project\Effect.cpp">
+      <Filter>Source\Le_Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Le_Project\ActiveEffectsManager.cpp">
       <Filter>Source\Le_Project</Filter>
     </ClCompile>
   </ItemGroup>

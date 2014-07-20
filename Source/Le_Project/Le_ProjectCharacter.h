@@ -27,6 +27,47 @@ class ALe_ProjectCharacter : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Stats)
+		float HitPoints;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Stats)
+		float Stamina;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Stats)
+		float Strength;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Stats)
+		float Dexterity;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Stats)
+		float Agility;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Stats)
+		float Intelligence;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Stats)
+		float Wisdom;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Stats)
+		float Mana;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Stats)
+		float Luck;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Stats)
+		float Charisma;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Stats)
+		float ArmorClass;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Stats)
+		float ResistMagic;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Stats)
+		float ResistHeat;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Stats)
+		float ResistCold;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Stats)
+		float ResistCorruption;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Stats)
+		float ResistPoison;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Stats)
+		float ResistBleed;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Stats)
+		float RegenHealth;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Stats)
+		float RegenMana;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Stats)
+		float MovementSpeed;
+
 public:
 	InventoryManager Inventory;
 

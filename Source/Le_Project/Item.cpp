@@ -30,3 +30,15 @@ void AItem::OnTouch(AActor* otherActor, UPrimitiveComponent* otherComp, int32 ot
 		}
 	}
 }
+
+void AItem::Activate(AActor* otherActor)
+{
+	if (otherActor->IsA(ALe_ProjectCharacter::StaticClass()))
+	{
+		ALe_ProjectCharacter* target = Cast<ALe_ProjectCharacter>(otherActor);
+		if (target)
+		{
+			//TODO add to active effect
+		}
+	}
+}
