@@ -15,10 +15,10 @@ public:
 	void RemoveEffect(AEffect* effect);
 	void UpdateEffects();
 
-private:
 	void ApplyEffect(AEffect* effect);
 	void EndEffect(AEffect* effect);
 
+private:
 	class ALe_ProjectCharacter* Character;
 	float worldTime;
 };

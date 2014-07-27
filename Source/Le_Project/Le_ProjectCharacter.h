@@ -71,11 +71,17 @@ class ALe_ProjectCharacter : public ACharacter
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Stats)
 		float MovementSpeed;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = DoubleJump)
+		bool CanDoubleJump;
+
 public:
 	InventoryManager Inventory;
  	class EffectsManager* Effects;
 
 protected:
+
+	bool doubleJump;
+	virtual bool DoJump(bool bReplayingMoves) OVERRIDE;
 
 	/** Called for forwards/backward input */
 	void MoveForward(float Value);

@@ -68,6 +68,9 @@ ALe_ProjectCharacter::ALe_ProjectCharacter(const class FPostConstructInitializeP
 
 void ALe_ProjectCharacter::Tick(float DeltaTime)
 {
+	if (!doubleJump && CharacterMovement->IsMovingOnGround())
+		doubleJump = true;
+
 	Effects->UpdateEffects();
 }
 //////////////////////////////////////////////////////////////////////////
@@ -94,6 +97,20 @@ void ALe_ProjectCharacter::SetupPlayerInputComponent(class UInputComponent* Inpu
 	InputComponent->BindTouch(EInputEvent::IE_Pressed, this, &ALe_ProjectCharacter::TouchStarted);
 }
 
+bool ALe_ProjectCharacter::DoJump(bool bReplayingMoves)
+{
+	if (Super::CanJump())
+	{
+		return true && CharacterMovement->DoJump();
+	}
+	if (CanDoubleJump && doubleJump && !bIsCrouched && CharacterMovement && CharacterMovement->CanEverJump() && !CharacterMovement->bWantsToCrouch)
+	{
+		doubleJump = false;
+		return true && CharacterMovement->DoJump();
+	}
+
+	return false;
+}
 
 void ALe_ProjectCharacter::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)
 {
