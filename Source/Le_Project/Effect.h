@@ -36,85 +36,44 @@ class AEffect : public AActor
 		float Duration;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Effect)
-		bool HitPoints;
+		float HitPoints;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Effect)
-		bool Stamina;
+		float Stamina;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Effect)
-		bool Strength;
+		float Strength;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Effect)
-		bool Dexterity;
+		float Dexterity;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Effect)
-		bool Agility;
+		float Agility;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Effect)
-		bool Intelligence;
+		float Intelligence;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Effect)
-		bool Wisdom;
+		float Wisdom;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Effect)
-		bool Mana;
+		float Mana;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Effect)
-		bool Luck;
+		float Luck;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Effect)
-		bool Charisma;
+		float Charisma;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Effect)
-		bool ArmorClass;
+		float ArmorClass;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Effect)
-		bool ResistMagic;
+		float ResistMagic;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Effect)
-		bool ResistHeat;
+		float ResistHeat;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Effect)
-		bool ResistCold;
+		float ResistCold;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Effect)
-		bool ResistCorruption;
+		float ResistCorruption;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Effect)
-		bool ResistPoison;
+		float ResistPoison;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Effect)
-		bool ResistBleed;
+		float ResistBleed;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Effect)
-		bool RegenHealth;
+		float RegenHealth;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Effect)
-		bool RegenMana;
+		float RegenMana;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Effect)
-		bool MovementSpeed;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = EffectAmount)
-		float HitPointsAmount;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = EffectAmount)
-		float StaminaAmount;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = EffectAmount)
-		float StrengthAmount;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = EffectAmount)
-		float DexterityAmount;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = EffectAmount)
-		float AgilityAmount;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = EffectAmount)
-		float IntelligenceAmount;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = EffectAmount)
-		float WisdomAmount;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = EffectAmount)
-		float ManaAmount;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = EffectAmount)
-		float LuckAmount;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = EffectAmount)
-		float CharismaAmount;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = EffectAmount)
-		float ArmorClassAmount;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = EffectAmount)
-		float ResistMagicAmount;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = EffectAmount)
-		float ResistHeatAmount;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = EffectAmount)
-		float ResistColdAmount;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = EffectAmount)
-		float ResistCorruptionAmount;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = EffectAmount)
-		float ResistPoisonAmount;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = EffectAmount)
-		float ResistBleedAmount;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = EffectAmount)
-		float RegenHealthAmount;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = EffectAmount)
-		float RegenManaAmount;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = EffectAmount)
-		float MovementSpeedAmount;
+		float MovementSpeed;
 	
 };

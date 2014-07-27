@@ -61,8 +61,15 @@ ALe_ProjectCharacter::ALe_ProjectCharacter(const class FPostConstructInitializeP
 	RegenHealth = 1.f;
 	RegenMana = 1.f;
 	MovementSpeed = 100.f;
+
+	Effects = new EffectsManager(this);
+	//Inventory = new InventoryManager();
 }
 
+void ALe_ProjectCharacter::Tick(float DeltaTime)
+{
+	Effects->UpdateEffects();
+}
 //////////////////////////////////////////////////////////////////////////
 // Input
 

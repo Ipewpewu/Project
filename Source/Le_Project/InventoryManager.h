@@ -1,3 +1,5 @@
+#pragma once
+
 #include "Item.h"
 #include "Array.h"
 
@@ -20,7 +22,7 @@ class InventoryManager
 {
 	public:
 		InventoryManager();
-		TArray<ItemStruct*> Inventory;
+		TArray<ItemStruct> Inventory;
 		void PickUpItem(AItem* item);
 		void DropItem(AItem* item, FVector Location, FRotator rotation);
 		void DestroyItem(AItem* item);

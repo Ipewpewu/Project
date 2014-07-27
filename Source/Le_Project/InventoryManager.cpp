@@ -3,27 +3,27 @@
 
 InventoryManager::InventoryManager()
 {
-	 
+
 }
 
 void InventoryManager::PickUpItem(AItem* item)
 {
 	if (item)
 	{
-		int const max = Inventory.Num();
+		uint8 max = Inventory.Num();
 
-		for (int i = 0; i < max; i++)
+		for (uint8 i = 0; i < max; i++)
 		{
-			if (Inventory[i]->Item == item)
+			if (Inventory[i].Item == item)
 			{
-				Inventory[i]->Count++;
+				Inventory[i].Count++;
 				item->Destroy();
 				return;
 			}
 		}
 
-		ItemStruct *newItem = new ItemStruct();
-		newItem->Item = item;
+		ItemStruct newItem =  ItemStruct();
+		newItem.Item = item;
 
 		Inventory.Add(newItem);
 
@@ -51,11 +51,11 @@ void InventoryManager::DestroyItem(AItem* item)
 
 		for (int i = 0; i < max; i++)
 		{
-			if (Inventory[i]->Item == item)
+			if (Inventory[i].Item == item)
 			{
-				Inventory[i]->Count--;
+				Inventory[i].Count--;
 
-				if (Inventory[i]->Count == 0)
+				if (Inventory[i].Count == 0)
 				{
 					// May or may not work (removing index during iteration)
 					Inventory.RemoveAt(i);

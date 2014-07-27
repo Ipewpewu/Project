@@ -3,6 +3,7 @@
 
 #include "GameFramework/SpringArmComponent.h"
 #include "InventoryManager.h"
+#include "EffectsManager.h"
 
 #include "Le_ProjectCharacter.generated.h"
 
@@ -10,6 +11,8 @@ UCLASS(config=Game)
 class ALe_ProjectCharacter : public ACharacter
 {
 	GENERATED_UCLASS_BODY()
+
+	virtual void Tick(float DeltaTime);
 
 	/** Camera boom positioning the camera behind the character */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
@@ -70,6 +73,7 @@ class ALe_ProjectCharacter : public ACharacter
 
 public:
 	InventoryManager Inventory;
+ 	class EffectsManager* Effects;
 
 protected:
 

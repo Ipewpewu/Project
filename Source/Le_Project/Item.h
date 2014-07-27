@@ -43,7 +43,7 @@ class AItem : public AActor
 		TSubobjectPtr<UParticleSystemComponent> Particle;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Texture)
-		TSubclassOf<UTexture> Texture;
+		TAssetPtr<UTexture2D> Texture;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = IsStackable)
 		bool IsStackable;
