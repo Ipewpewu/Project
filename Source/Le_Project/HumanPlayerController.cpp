@@ -15,6 +15,7 @@ void AHumanPlayerController::SetupInputComponent()
 	Super::SetupInputComponent();
 
 	InputComponent->BindAction("SkillMenu", IE_Pressed, this, &AHumanPlayerController::OnToggleInGameMenu);
+	InputComponent->BindAction("InventoryMenu", IE_Pressed, this, &AHumanPlayerController::OnToggleInventoryMenu);
 	InputComponent->BindAction("DashSkill", IE_Pressed, this, &AHumanPlayerController::OnDashSkill);
 }
 
@@ -27,6 +28,27 @@ void AHumanPlayerController::OnToggleInGameMenu()
 	//the below line is how to log text to the output window
 	//UE_LOG(LogClass, Log, TEXT("This is a testing statement. The menu should now be showing"));
 }
+void AHumanPlayerController::OnToggleInventoryMenu()
+{
+	AIngameHUD* ingameHUD = Cast<AIngameHUD>(GetHUD());
+	if (ingameHUD != nullptr)
+	{
+		ingameHUD->drawInventory = !ingameHUD->drawInventory;
+		if (ingameHUD->drawInventory)
+		{
+			//TODO: on entry of inventory menu, disable camera rotation
+			bShowMouseCursor = true;
+			bEnableClickEvents = true;
+		}
+		else
+		{
+			//TODO: on exit of inventory menu, enable camera rotation
+			bShowMouseCursor = false;
+			bEnableClickEvents = false;
+		}
+	}
+}
+
 
 void AHumanPlayerController::OnDashSkill()
 {
