@@ -16,6 +16,7 @@ class AHumanPlayerController : public APlayerController
 public:
 	virtual void SetupInputComponent() OVERRIDE;
 	void OnToggleInGameMenu();
+	void OnToggleInventoryMenu();
 	void OnDashSkill();
 	void BuySkill();
 
